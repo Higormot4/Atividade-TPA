@@ -1,13 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package alg3;
 
-/**
- *
- * @author FATEC ZONA LESTE
- */
+
 public class Pj3 {
+    public static void main(String[] args) {
+        
     
-}
+     int q = 0;
+
+        for (int i = 1000; i <= 1250; i++) {
+            q++;
+        }
+
+        System.out.println("A quantidade de números entre 6000 e 12000 é: " + q);
+    }
